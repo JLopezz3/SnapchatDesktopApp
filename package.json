@@ -16,7 +16,8 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "react-webcam": "^5.2.2",
-    "redux-react-hook": "^4.0.3"
+    "redux-react-hook": "^4.0.3",
+    "uuid": "^8.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
