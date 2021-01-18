@@ -4,21 +4,21 @@ export const appSlice = createSlice({
   name: "app",
   initialState: {
     user: null,
-    selectedImage: null
+    selectedImage: null,
   },
   reducers: {
     login: (state, action) => {
-      state.value = action.payload;
+      state.user = action.payload;
     },
     logout: (state) => {
       state.user = null;
     },
     selectImage: (state, action) => {
-      state.selectedImage = action.payload
+      state.selectedImage = action.payload;
     },
     resetImage: (state) => {
       state.selectedImage = null;
-    }
+    },
   },
 });
 
